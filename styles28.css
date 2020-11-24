@@ -1,0 +1,22 @@
+body {
+    font: bold 28px Helvetica, sans-serif;
+}
+
+.button {
+    position: relative;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border: 5px double #FFF;
+    border-radius: 80px;
+    background-image: radial-gradient(#FFF, #FFB5D7);
+    box-shadow: 0 0 5px #FFB5D7, 15px 15px 25px #EFEEF3;  
+}
+
+div.button span {
+    display: table-cell;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
