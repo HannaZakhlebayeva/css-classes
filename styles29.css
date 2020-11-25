@@ -1,0 +1,41 @@
+/*задаем свойства, общие для всех индикаторов*/
+.low, .middle, .full {
+    float: left;
+    margin-top: 15px;
+    width: 210px;
+    height: 70px;
+    border: 5px solid black;
+}
+/*задаем свойства, общие для всех заливок*/
+.low_indicator, .middle_indicator, .full_indicator {
+    height: 70px;
+    border: 0;
+}
+/*первый индикатор - заливка*/
+.low_indicator {
+    width: 33%;
+    background: #ED1B24;
+}
+/*второй индикатор - заливка*/
+.middle_indicator {
+    width: 66%;
+    background: #FFC60B;
+}
+/*третий индикатор - заливка*/
+.full_indicator {
+    width: auto;
+    background: #00A155;
+    }
+/*добавляем дополнительный блок справа, чтобы прямоугольники были похожи на индикаторы заряда батареи*/
+.addition {
+    float: left;
+    margin-top: 40px;
+    width: 1px;
+    height: 20px;
+    border: 5px solid #000;
+    background: #000;
+}
+/*убираем float между индикаторами, чтобы они располагадись в столбик*/
+.clear {
+    clear: left; 
+}
